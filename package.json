@@ -9,11 +9,17 @@
     "dev": "bunx --bun astro dev",
     "build": "bunx --bun astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint 'src/**/*.{js,astro}'"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.1",
+    "@typescript-eslint/parser": "^8.61.0",
     "astro": "^6.4.6",
+    "eslint": "^10.5.0",
+    "eslint-plugin-astro": "^1.7.0",
     "prettier": "^3.8.4",
     "prettier-plugin-astro": "^0.14.1",
     "tailwindcss": "^4.3.1"

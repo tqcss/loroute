@@ -1,0 +1,13 @@
+{
+  "name": "loroute",
+  "compatibility_date": "2026-06-16",
+  "main": "src/server/index.ts",
+  "d1_databases": [
+    {
+      "binding": "routes_db",
+      "database_name": "routes-db",
+      "database_id": "database-id-goes-here",
+      "remote": true
+    }
+  ]
+}

@@ -28,4 +28,5 @@ pnpm-debug.log*
 
 # wrangler
 .wrangler/
+wrangler.json
 
